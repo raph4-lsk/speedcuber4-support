@@ -1,0 +1,21 @@
+name: Feedback
+description: Share an idea, a wish or what you think of SpeedCuber4.
+title: "Feedback: "
+labels: [feedback]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your feedback
+      description: What do you like, what is missing, what would make your practice better?
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Settings › About shows it.
+  - type: input
+    id: device
+    attributes:
+      label: iPhone and iOS version
