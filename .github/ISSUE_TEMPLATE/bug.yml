@@ -1,0 +1,26 @@
+name: Bug report
+description: Something does not work as it should.
+title: "Bug: "
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what you saw instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open Sessions\n2. Tap Import\n3. ..."
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Settings › About shows it.
+  - type: input
+    id: device
+    attributes:
+      label: iPhone and iOS version
