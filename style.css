@@ -65,3 +65,4 @@ footer { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--line);
 .action-note { font-size: 15px; opacity: 0.75; }
 .action:focus-visible, nav a:focus-visible { outline: 2px solid var(--record); outline-offset: 3px; }
 .hint { color: var(--muted); font-size: 15px; }
+.about { font-size: 17px; margin: 0 0 24px; }
